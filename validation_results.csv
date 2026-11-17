@@ -1,0 +1,4 @@
+pipeline_id,pipeline_name,validation_MAE,validation_RMSE,mean_processing_ms,complexity_steps,n_images,selection
+E18,Pipeline A: opening→closing,6.0,6.260990336999411,25.0174,5,5,Önerilen aday
+E22,Pipeline C: CLAHE/Gauss5/Otsu/closing/watershed,8.8,10.469001862641921,202.3752,5,5,Alternatif
+E21,Pipeline B: germe/Median/adaptif/closing,1271.8,1275.681543332818,53.34740000000001,4,5,Alternatif
