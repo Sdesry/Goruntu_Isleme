@@ -1,0 +1,23 @@
+# Resmi Cell Tracking Challenge görüntü ve anotasyonları
+Fluo-N2DH-GOWT1/
+**/Fluo-N2DH-GOWT1/
+01/
+02/
+01_GT/
+02_GT/
+*_GT/
+*_ST/
+*.tif
+*.tiff
+*.zip
+
+# Python / Colab geçici dosyaları
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+
+# Google Drive dışa aktarılan çalışma klasörleri / özel görseller
+figures_private/
+**/figures_private/
+qa_stage*/
