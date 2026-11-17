@@ -1,0 +1,48 @@
+{
+  "stage": 3,
+  "seed": 31040,
+  "student_last5": 29014,
+  "pipeline_id": "E18",
+  "pipeline_config": {
+    "id": "E18",
+    "name": "Pipeline A: opening→closing",
+    "intensity": "clahe",
+    "filter": "gauss3",
+    "segmentation": "otsu",
+    "morph": [
+      [
+        "opening",
+        3
+      ],
+      [
+        "closing",
+        3
+      ]
+    ],
+    "min_area": 20,
+    "watershed": false,
+    "fixed_threshold": 110,
+    "adaptive_block": 35,
+    "adaptive_c": -2,
+    "min_distance": 10,
+    "threshold_rel": 0.2,
+    "compare_to": "E14",
+    "change_note": "Opening sonrasına Closing eklendi"
+  },
+  "baseline_config": {
+    "method": "Otsu + connected components",
+    "input": "original_grayscale",
+    "otsu_mode": "THRESH_BINARY+THRESH_OTSU",
+    "connectivity": 8,
+    "min_area_pixels": 1,
+    "seed": 31040
+  },
+  "selection_basis": "min(validation_MAE), then RMSE, processing_ms, complexity_steps",
+  "validation_MAE": 6.0,
+  "validation_RMSE": 6.260990336999411,
+  "validation_mean_processing_ms": 25.0174,
+  "selected_frames_sha256": "65bb07e661ab103fde8c4b533f5e6876f5edaaa3f7d8ccd17ca873131e5d1c9e",
+  "stage2_winner_sha256": "bf538d2105d842ac31f48d0bc87a8ec0ab67f8ee1321474b813ca8df58973188",
+  "stage2_validation_sha256": "7b06a616d3f1b97b94ab1f3103371b947480723d9b2020ed6eff2ae0c7cd22ef",
+  "test_reference_read": false
+}

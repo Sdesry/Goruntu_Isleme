@@ -1,0 +1,22 @@
+{
+  "stage": 3,
+  "seed": 31040,
+  "pipeline_id": "E18",
+  "files_sha256": {
+    "final_pipeline.json": "c15886897f490f8d99d9ce8740407d9d037cac44942ccf09a09235c1935f7e2e",
+    "test_predictions_locked.csv": "bbf659c84736f437277ac44d9007864a6e17912b626d002958c69f61c45322d0"
+  },
+  "selected_frames_sha256": "65bb07e661ab103fde8c4b533f5e6876f5edaaa3f7d8ccd17ca873131e5d1c9e",
+  "test_reference_read": false,
+  "github_commit_required_before_test_evaluation": true,
+  "software": {
+    "python": "3.13.18",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "opencv": "5.0.0",
+    "tifffile": "2026.10.15",
+    "imagecodecs": "2026.11.11",
+    "scipy": "1.16.3",
+    "scikit-image": "0.25.2"
+  }
+}
